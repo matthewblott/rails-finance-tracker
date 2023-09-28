@@ -12,6 +12,7 @@ gem "stimulus-rails"
 gem "jbuilder"
 gem "bootsnap", require: false
 gem "devise"
+gem "bootstrap"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -34,3 +35,5 @@ group :test do
   gem "guard"
   gem "guard-minitest"
 end
+
+gem "cssbundling-rails", "~> 1.3"
