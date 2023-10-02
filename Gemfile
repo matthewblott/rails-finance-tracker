@@ -3,7 +3,7 @@ source "https://rubygems.org"
 ruby File.read(".ruby-version").strip
 
 gem "rails", "~> 7.1.0.rc1"
-gem "sprockets-rails"
+# gem "sprockets-rails"
 gem "sqlite3", "~> 1.4"
 gem "puma", ">= 5.0"
 gem "importmap-rails"
@@ -25,6 +25,7 @@ gem "cssbundling-rails"
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
+  gem "byebug", "~> 11.1"
 end
 
 group :development do
@@ -44,4 +45,3 @@ group :test do
   gem "guard-minitest"
 end
 
-gem "cssbundling-rails", "~> 1.3"

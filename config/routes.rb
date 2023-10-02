@@ -6,7 +6,6 @@ Rails.application.routes.draw do
   
   get '/my_portfolio', to: 'users#my_portfolio'
   get '/search_stock', to: 'stocks#search'
-  # get '/welcome/index'
-  # get "up" => "rails/health#show", as: :rails_health_check
+  get "up" => "rails/health#show", as: :rails_health_check
   root 'welcome#index'
 end

@@ -1,7 +1,7 @@
 @import 'bootstrap/scss/bootstrap';
 
 .navbar-brand {
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 .search-area {
@@ -14,4 +14,9 @@
 
 .no-left-padding {
   padding-left: 0 !important;
+}
+
+
+.results-block {
+  display: inline-block;
 }
